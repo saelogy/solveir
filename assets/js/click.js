@@ -1,4 +1,4 @@
-const particleSrc = "images/strawberrym.png";
+const particleSrc = "/solveir/assets/img/strawberrym.png";
 
 document.addEventListener("click", (e) => {
   const particleCount = 8;
