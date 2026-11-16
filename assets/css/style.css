@@ -352,7 +352,7 @@ b2 {
   opacity: 0;
   border-width: 12px;
   border-style: solid;
-  border-image: url(/solveir/assets/img/nborderw.png) 12 fill round;
+  border-image: url("/solveir/assets/img/nborderw.png") 12 fill round;
   outline: 2px dashed #FFC1D4;
   outline-offset: -10px;
   image-rendering: smooth !important;
