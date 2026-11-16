@@ -1,6 +1,6 @@
 body {
-  background:url("images/bg.png");
-  cursor: url("images/cursor.png"), default;
+  background:url("/solveir/assets/img/bg.png");
+  cursor: url("/solveir/assets/img/cursor.png"), default;
   font-family: 'hearts', MS ui gothic;
   letter-spacing: 0.4px;
   line-height: 1.3;
@@ -12,7 +12,7 @@ body {
   image-rendering: pixelated;
 }
 html {
-  cursor: url("images/cursor.png"), default;
+  cursor: url("/solveir/assets/img/cursor.png"), default;
   -webkit-animation: cursor 1s infinite;
   animation: cursor 1s infinite;
 }
@@ -35,13 +35,13 @@ html {
 }
 
 @-webkit-keyframes cursor {
-  0% {cursor: url("images/cursor.png"), auto;}
-  50% {cursor: url("images/cursor2.png"), auto;}
+  0% {cursor: url("/solveir/assets/img/cursor.png"), auto;}
+  50% {cursor: url("/solveir/assets/img/cursor2.png"), auto;}
 } 
 
 @keyframes cursor {
-  0% {cursor: url("images/cursor.png"), auto;}
-  50% {cursor: url("images/cursor2.png"), auto;}
+  0% {cursor: url("/solveir/assets/img/cursor.png"), auto;}
+  50% {cursor: url("/solveir/assets/img/cursor2.png"), auto;}
 }
 * {
   margin: 0;
@@ -70,7 +70,7 @@ html {
   width: 16px;
 }
 *::-webkit-scrollbar-track {
-  background-image:url("images/scroll.png");
+  background-image:url("/solveir/assets/img/scroll.png");
   border-radius: 5px;
   border: 1px dashed #e0ba99;
   box-shadow: inset 0 0 4px #FFC8D9; 
@@ -105,7 +105,7 @@ html {
 .strawbery {
   width: 983px;
   height: 551px;
-  background-image:url("images/background.png");
+  background-image:url("/solveir/assets/img/background.png");
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -126,7 +126,7 @@ html {
   margin-left: 22px;
   justify-content: center;
   align-content: center;
-  background-image:url("images/buneybg.png");
+  background-image:url("/solveir/assets/img/buneybg.png");
   padding: 12px;
 }
 .milk {
@@ -161,7 +161,7 @@ iframe[name="content-frame"] {
     -1px 0px #FFE0EB, 
     0px -1px #FFE0EB;
   width: 450px;
-  background-image: url("images/copyright.png");
+  background-image: url("/solveir/assets/img/copyright.png");
   padding-top: 7px;
   background-repeat: no-repeat;
 }
@@ -177,7 +177,7 @@ iframe[name="content-frame"] {
 }
 .toplace {
   overflow: hidden;
-  background-image: url("images/toplace.png");
+  background-image: url("/solveir/assets/img/toplace.png");
   position: fixed;
   top: 0;
   height: 40px;
@@ -185,7 +185,7 @@ iframe[name="content-frame"] {
 }
 .bottomlace {
   overflow: hidden;
-  background-image: url("images/bottomlace.png");
+  background-image: url("/solveir/assets/img/bottomlace.png");
   position: fixed;
   bottom: 0;
   height: 40px;
@@ -220,7 +220,7 @@ a {
 }
 a:hover{
   color: #C39766;
-  cursor: url("images/cursorhover.png"), progress;
+  cursor: url("/solveir/assets/img/cursorhover.png"), progress;
   text-shadow:
     1px 0px #FFE0EB, 
     0px 1px #FFE0EB, 
@@ -255,14 +255,14 @@ b2 {
   height: 165px;
   margin-top: 3px;
   margin-left: 3px;
-  background-image: url("images/icon.png");
+  background-image: url("/solveir/assets/img/icon.png");
 }
 .icon:hover {
   background-position: 0px -165px;
 }
 .about {
   display: block;
-  background-image: url("images/about.png");
+  background-image: url("/solveir/assets/img/about.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
@@ -272,7 +272,7 @@ b2 {
 }
 .commissions {
   display: block;
-  background-image: url("images/commissions.png");
+  background-image: url("/solveir/assets/img/commissions.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
@@ -282,7 +282,7 @@ b2 {
 }
 .tos {
   display: block;
-  background-image: url("images/tos.png");
+  background-image: url("/solveir/assets/img/tos.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
@@ -292,7 +292,7 @@ b2 {
 }
 .tdl {
   display: block;
-  background-image: url("images/to-do%20list.png");
+  background-image: url("/solveir/assets/img/to-do%20list.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
@@ -302,7 +302,7 @@ b2 {
 }
 .links {
   display: block;
-  background-image: url("images/links.png");
+  background-image: url("/solveir/assets/img/links.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
@@ -312,7 +312,7 @@ b2 {
 }
 .faq {
   display: block;
-  background-image: url("images/faq.png");
+  background-image: url("/solveir/assets/img/faq.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
@@ -322,7 +322,7 @@ b2 {
 }
 .help {
   display: block;
-  background-image: url("images/help.png");
+  background-image: url("/solveir/assets/img/help.png");
   width: 159px; height: 41px;
   margin-left: 3px;
 }
@@ -337,7 +337,7 @@ b2 {
   text-align: center;
   top: 15;
   left: 0;
-  background: url("images/pgingham2.png");
+  background: url("/solveir/assets/img/pgingham2.png");
   opacity: 0;
   border: 2px dashed #FFC1D4;
 }
@@ -352,7 +352,7 @@ b2 {
   opacity: 0;
   border-width: 12px;
   border-style: solid;
-  border-image: url(images/nborderw.png) 12 fill round;
+  border-image: url(/solveir/assets/img/nborderw.png) 12 fill round;
   outline: 2px dashed #FFC1D4;
   outline-offset: -10px;
   image-rendering: smooth !important;
@@ -372,7 +372,7 @@ b2 {
   display: block;
   width: 111px;
   height: 94px;
-  background-image: url("images/next.png");
+  background-image: url("/solveir/assets/img/next.png");
   background-repeat: no-repeat;
   padding: 5px;
   position: absolute;
@@ -384,7 +384,7 @@ b2 {
   display: block;
   width: 111px;
   height: 94px;
-  background-image: url("images/prev.png");
+  background-image: url("/solveir/assets/img/prev.png");
   background-repeat: no-repeat;
   padding: 5px;
   position: absolute;
@@ -396,7 +396,7 @@ b2 {
   display: block;
   width: 86px;
   height: 86px;
-  background-image: url("images/close.png");
+  background-image: url("/solveir/assets/img/close.png");
   background-repeat: no-repeat;
   vertical-align: middle;
   position: absolute;
@@ -455,7 +455,7 @@ hr {
   position: fixed;
   border-width:7px;
   border-style:solid;
-  border-image: url("images/border1.png") 7 fill round;
+  border-image: url("/solveir/assets/img/border1.png") 7 fill round;
   margin-left: 40px;
   margin-top: 30px;
 }
@@ -471,68 +471,68 @@ hr {
 .laceborder {
   border-width:7px;
   border-style:solid;
-  border-image: url("images/border1.png") 7 fill round;
+  border-image: url("/solveir/assets/img/border1.png") 7 fill round;
   max-width: 701px;
 }
 .laceborder2 {
   border-width:7px;
   border-style:solid;
-  border-image: url("images/border1.png") 7 fill round;
+  border-image: url("/solveir/assets/img/border1.png") 7 fill round;
   max-width: 736px;
 }
 .laceborder3 {
   border-width:7px;
   border-style:solid;
-  border-image: url("images/border2.png") 7 fill round;
+  border-image: url("/solveir/assets/img/border2.png") 7 fill round;
   max-width: 701px;
 }
 .laceborder4 {
   border-width:7px;
   border-style:solid;
-  border-image: url("images/border2.png") 7 fill round;
+  border-image: url("/solveir/assets/img/border2.png") 7 fill round;
   max-width: 736px;
 }
 .laceborder5 {
   border-width:7px;
   border-style:solid;
-  border-image: url("images/border3.png") 7 fill round;
+  border-image: url("/solveir/assets/img/border3.png") 7 fill round;
   max-width: 701px;
 }
 .laceborder6 {
   border-width:7px;
   border-style:solid;
-  border-image: url("images/border4.png") 7 fill round;
+  border-image: url("/solveir/assets/img/border4.png") 7 fill round;
   max-width: 701px;
 }
 .laceborderw {
   border-width: 12px;
   border-style: solid;
-  border-image: url("images/nborderw.png") 12 fill round;
+  border-image: url("/solveir/assets/img/nborderw.png") 12 fill round;
 }
 .laceborderlp {
   border-width: 12px;
   border-style: solid;
-  border-image: url("images/nborderlp.png") 12 fill round;
+  border-image: url("/solveir/assets/img/nborderlp.png") 12 fill round;
 }
 .lacebordermp {
   border-width: 12px;
   border-style: solid;
-  border-image: url("images/nbordermp.png") 12 fill round;
+  border-image: url("/solveir/assets/img/nbordermp.png") 12 fill round;
 }
 .lacebordery {
   border-width: 12px;
   border-style: solid;
-  border-image: url("images/nbordery.png") 12 fill round;
+  border-image: url("/solveir/assets/img/nbordery.png") 12 fill round;
 }
 .laceborderb {
   border-width: 12px;
   border-style: solid;
-  border-image: url("images/nborderb.png") 12 fill round;
+  border-image: url("/solveir/assets/img/nborderb.png") 12 fill round;
 }
 .laceborderbr {
   border-width: 12px;
   border-style: solid;
-  border-image: url("images/nborderbr.png") 12 fill round;
+  border-image: url("/solveir/assets/img/nborderbr.png") 12 fill round;
 }
 .dashborder {
   border-style: dashed;
@@ -583,7 +583,7 @@ hr {
   border-radius: 3px;
   height: 503px;
   width: 30px;
-  background-image: url('images/pgingham2.png');
+  background-image: url('/solveir/assets/img/pgingham2.png');
   z-index: 999;
   position: absolute;
   outline: #FFD1E0 solid 1px;
@@ -592,63 +592,63 @@ hr {
   box-shadow: 2px 2px 2px inset #FFF4F9, -2px -2px 2px inset #FFD1E0;
 }
 .innerbox {
-  background-image: url('images/gingham2.png');
+  background-image: url('/solveir/assets/img/gingham2.png');
   background-repeat: repeat; overflow: hidden;
 }
 .nppolka {
-  background-image: url('images/nppolka.png');
+  background-image: url('/solveir/assets/img/nppolka.png');
   background-repeat: repeat; overflow: hidden;
 }
 .ppolka {
-  background-image: url('images/ppolka.png');
+  background-image: url('/solveir/assets/img/ppolka.png');
   background-repeat: repeat; overflow: hidden;
 }
 .ypolka {
-  background-image: url('images/ypolka.png');
+  background-image: url('/solveir/assets/img/ypolka.png');
   background-repeat: repeat; overflow: hidden;
 }
 .gpolka {
-  background-image: url('images/gpolka.png');
+  background-image: url('/solveir/assets/img/gpolka.png');
   background-repeat: repeat; overflow: hidden;
 }
 .bpolka {
-  background-image: url('images/nbpolka.png');
+  background-image: url('/solveir/assets/img/nbpolka.png');
   background-repeat: repeat; overflow: hidden;
 }
 .pupolka {
-  background-image: url('images/pupolka.png');
+  background-image: url('/solveir/assets/img/pupolka.png');
   background-repeat: repeat; overflow: hidden;
 }
 .wpolka {
-  background-image: url('images/wpolka.png');
+  background-image: url('/solveir/assets/img/wpolka.png');
   background-repeat: repeat; overflow: hidden;
 }
 .pgingham {
-  background-image: url('images/pgingham.png');
+  background-image: url('/solveir/assets/img/pgingham.png');
   background-repeat: repeat; overflow: hidden;
 }
 .pgingham3 {
-  background-image: url('images/pgingham3.png');
+  background-image: url('/solveir/assets/img/pgingham3.png');
   background-repeat: repeat; overflow: hidden;
 }
 .ygingham {
-  background-image: url('images/ygingham.png');
+  background-image: url('/solveir/assets/img/ygingham.png');
   background-repeat: repeat; overflow: hidden;
 }
 .ygingham2 {
-  background-image: url('images/ygingham2.png');
+  background-image: url('/solveir/assets/img/ygingham2.png');
   background-repeat: repeat; overflow: hidden;
 }
 .ggingham {
-  background-image: url('images/ggingham.png');
+  background-image: url('/solveir/assets/img/ggingham.png');
   background-repeat: repeat; overflow: hidden;
 }
 .bgingham {
-  background-image: url('images/bgingham.png');
+  background-image: url('/solveir/assets/img/bgingham.png');
   background-repeat: repeat; overflow: hidden;
 }
 .scbg {
-  background-image: url('images/scbg.png');
+  background-image: url('/solveir/assets/img/scbg.png');
   background-repeat: repeat; overflow: hidden;
 }
 .formlabel {
@@ -663,7 +663,7 @@ hr {
   letter-spacing: 2px;
 }
 .indexbanner {
-  background-image:url("images/indexbanner.png");
+  background-image:url("/solveir/assets/img/indexbanner.png");
   height: 178px;
   width: 718px;
   overflow: hidden;
@@ -739,7 +739,7 @@ hr {
   margin-right: 6px;
 }
 .abtmefvbg {
-  background-image:url("images/abtmefvbg.png");
+  background-image:url("/solveir/assets/img/abtmefvbg.png");
   position: absolute;
   margin-top: 5px;
   height: 247px;
@@ -755,7 +755,7 @@ hr {
   overflow: hidden;
 }
 .abtmepflwr {
-  background-image:url("images/abtmepflwr.png");
+  background-image:url("/solveir/assets/img/abtmepflwr.png");
   height: 85px;
   width: 87px;
   position: relative;
@@ -765,7 +765,7 @@ hr {
   margin-bottom: 10px;
 }
 .abtmeyclvr {
-  background-image:url("images/abtmeyclvr.png");
+  background-image:url("/solveir/assets/img/abtmeyclvr.png");
   height: 77px;
   width: 84px;
   position: relative;
@@ -778,7 +778,7 @@ hr {
   margin-left: 8px;
 }
 .abtmebstr {
-  background-image:url("images/abtmebstr.png");
+  background-image:url("/solveir/assets/img/abtmebstr.png");
   height: 84px;
   width: 87px;
   position: relative;
@@ -788,7 +788,7 @@ hr {
   margin-bottom: 10px;
 }
 .abtmephrt {
-  background-image:url("images/abtmephrt.png");
+  background-image:url("/solveir/assets/img/abtmephrt.png");
   height: 77px;
   width: 89px;
   position: relative;
@@ -799,7 +799,7 @@ hr {
   margin-bottom: 10px;
 }
 .abtmeyflwr {
-  background-image:url("images/abtmeyflwr.png");
+  background-image:url("/solveir/assets/img/abtmeyflwr.png");
   height: 85px;
   width: 87px;
   position: relative;
@@ -834,7 +834,7 @@ hr {
   z-index: 999;
 }
 .abtmestylebg {
-  background-image:url("images/abtmestylebg.png");
+  background-image:url("/solveir/assets/img/abtmestylebg.png");
   position: absolute;
   height: 477px;
   width: 337px;
@@ -845,7 +845,7 @@ hr {
   font-size: 12px;
 }
 .abtmestylebg2 {
-  background-image:url("images/abtmestylebg.png");
+  background-image:url("/solveir/assets/img/abtmestylebg.png");
   position: absolute;
   height: 477px;
   width: 337px;
@@ -979,13 +979,13 @@ hr {
   }
 }
 .btn-next {
-  background-image: url("images/nextpage.png");
+  background-image: url("/solveir/assets/img/nextpage.png");
   padding-top: 9px;
   padding-left: 15px;
 }
 
 .btn-back {
-  background-image: url("images/prevpage.png");
+  background-image: url("/solveir/assets/img/prevpage.png");
   padding-top: 14px;
   padding-right: 15px;
 }
@@ -999,7 +999,7 @@ hr {
   transform: translateX(-2px);
 }
 .petsbg {
-  background-image:url("images/petsbg.png");
+  background-image:url("/solveir/assets/img/petsbg.png");
   position: absolute;
   height: 477px;
   width: 337px;
@@ -1019,7 +1019,7 @@ hr {
   margin-top: 5px;
 }
 .petscocoa {
-  background-image:url("images/petscocoa.png");
+  background-image:url("/solveir/assets/img/petscocoa.png");
   height: 120px;
   width: 128px;
   position: absolute;
@@ -1047,7 +1047,7 @@ hr.cocoahr {
   margin: 3px;
 }
 .petschip {
-  background-image:url("images/petschip.png");
+  background-image:url("/solveir/assets/img/petschip.png");
   height: 123px;
   width: 127px;
   position: absolute;
@@ -1075,7 +1075,7 @@ hr.chiphr {
   margin: 3px;
 }
 .petscookie {
-  background-image:url("images/petscookie.png");
+  background-image:url("/solveir/assets/img/petscookie.png");
   height: 134px;
   width: 128px;
   position: absolute;
@@ -1103,7 +1103,7 @@ hr.cookiehr {
   margin: 3px;
 }
 .petscider {
-  background-image:url("images/petscider.png");
+  background-image:url("/solveir/assets/img/petscider.png");
   height: 117px;
   width: 111px;
   position: absolute;
@@ -1131,7 +1131,7 @@ hr.ciderhr {
   margin: 3px;
 }
 .petscappuccino {
-  background-image:url("images/petscappuccino.png");
+  background-image:url("/solveir/assets/img/petscappuccino.png");
   height: 119px;
   width: 125px;
   position: absolute;
@@ -1159,7 +1159,7 @@ hr.cappuccinohr {
   margin: 3px;
 }
 .petscows {
-  background-image:url("images/petscows.png");
+  background-image:url("/solveir/assets/img/petscows.png");
   height: 80px;
   width: 90px;
   position: absolute;
@@ -1169,7 +1169,7 @@ hr.cappuccinohr {
   padding-right: 15px;
 }
 .petsducks {
-  background-image:url("images/petsducks.png");
+  background-image:url("/solveir/assets/img/petsducks.png");
   height: 90px;
   width: 88px;
   position: absolute;
@@ -1180,7 +1180,7 @@ hr.cappuccinohr {
   padding-left: 15px;
 }
 .petschickens {
-  background-image:url("images/petschickens.png");
+  background-image:url("/solveir/assets/img/petschickens.png");
   height: 85px;
   width: 102px;
   position: absolute;
@@ -1190,7 +1190,7 @@ hr.cappuccinohr {
   padding-top: 50px;
 }
 .petsbees {
-  background-image:url("images/petsbees.png");
+  background-image:url("/solveir/assets/img/petsbees.png");
   height: 63px;
   width: 65px;
   position: absolute;
@@ -1217,10 +1217,10 @@ hr.cappuccinohr {
     0px -2px #fff;
   border-width: 12px;
   border-style: solid;
-  border-image: url("images/nborderw.png") 12 round;
+  border-image: url("/solveir/assets/img/nborderw.png") 12 round;
 	outline: 2px dashed #FFD6E1;
   outline-offset: -12px;
-	background-image: url('images/nppolka.png');
+	background-image: url('/solveir/assets/img/nppolka.png');
 }
 .tooltip {
   position: fixed;
@@ -1237,7 +1237,7 @@ hr.cappuccinohr {
     0px -1px #fff;
   border-width: 12px;
   border-style: solid;
-  border-image: url("images/nborderw.png") 12 fill round;
+  border-image: url("/solveir/assets/img/nborderw.png") 12 fill round;
 	outline: 2px dashed #FFD6E1;
   outline-offset: -12px;
   line-height: 11px;
@@ -1259,7 +1259,7 @@ hr.cappuccinohr {
   width: 155px;
   height: 160px;
   z-index: 2;
-  background-image: url("images/stereobody.png")
+  background-image: url("/solveir/assets/img/stereobody.png")
 }
 .cd-disc {
   position: absolute;
@@ -1524,7 +1524,7 @@ font-family: "Comic Sans MS", "Comic Sans", sans-serif;
   height: 175px;
 }
 .welcomewashi {
-  background-image: url('images/ygingham2.png');
+  background-image: url('/solveir/assets/img/ygingham2.png');
   background-repeat: repeat;
   overflow: hidden;
   border: 1px solid #fff3d0;
