@@ -260,64 +260,64 @@ b2 {
 .icon:hover {
   background-position: 0px -165px;
 }
-.about {
+.overview {
   display: block;
   background-image: url("/solveir/assets/img/about.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
 }
-.about:hover {
+.overview:hover {
   background-position: 0px -41px;
 }
-.commissions {
+.history {
   display: block;
   background-image: url("/solveir/assets/img/commissions.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
 }
-.commissions:hover {
+.history:hover {
   background-position: 0px -41px;
 }
-.tos {
+.bonds {
   display: block;
   background-image: url("/solveir/assets/img/tos.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
 }
-.tos:hover {
+.bonds:hover {
   background-position: 0px -41px;
 }
-.tdl {
+.trivia {
   display: block;
   background-image: url("/solveir/assets/img/to-do%20list.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
 }
-.tdl:hover {
+.trivia:hover {
   background-position: 0px -41px;
 }
-.links {
+.gallery {
   display: block;
   background-image: url("/solveir/assets/img/links.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
 }
-.links:hover {
+.gallery:hover {
   background-position: 0px -41px;
 }
-.faq {
+.author {
   display: block;
   background-image: url("/solveir/assets/img/faq.png");
   width: 165px; height: 35px;
   margin-bottom: 12px;
   margin-left: 3px;
 }
-.faq:hover {
+.author:hover {
   background-position: 0px -41px;
 }
 .help {
